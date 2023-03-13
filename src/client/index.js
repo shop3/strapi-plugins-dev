@@ -32,7 +32,7 @@ const App = () => {
       <center>
         <h1>Welcome!</h1>
         <SessionToken />
-        <Subscription host={base64ToUtf8(params.host)} />
+        <Subscription shop={params.shop} />
         <Ticket />
       </center>
     </Provider>
