@@ -41,9 +41,7 @@ const Subscription = ({ shop }) => {
     });
     if (res.status < 400) {
       const { confirmationUrl } = await res.json();
-      console.log(confirmationUrl);
       const confirmationPath = confirmationUrl.replace(`https://${shop}`, '');
-      console.log(confirmationPath);
       const redirect = Redirect.create(appBridge);
       redirect.dispatch(Redirect.Action.ADMIN_PATH, {
         path: confirmationPath,
