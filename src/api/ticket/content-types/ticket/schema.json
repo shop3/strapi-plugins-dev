@@ -14,10 +14,7 @@
   "attributes": {
     "type": {
       "type": "enumeration",
-      "enum": [
-        "BASE",
-        "PREMIUM"
-      ],
+      "enum": ["BASE", "PREMIUM"],
       "required": true,
       "default": "BASE"
     },
