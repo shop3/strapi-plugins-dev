@@ -12,7 +12,8 @@
     "postinstall": "lerna bootstrap",
     "lint": "eslint --fix .",
     "format": "prettier --write .",
-    "ngrok": "ngrok http 1337"
+    "ngrok": "ngrok",
+    "ngrok:start": "ngrok http 1337"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
