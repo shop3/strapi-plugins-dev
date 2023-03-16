@@ -13,10 +13,13 @@
     "lint": "eslint --fix .",
     "format": "prettier --write .",
     "ngrok": "ngrok",
-    "ngrok:start": "ngrok http 1337"
+    "ngrok:start": "ngrok http 1337",
+    "shopify": "shopify"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
+    "@shopify/app": "^3.44.1",
+    "@shopify/cli": "^3.44.1",
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
